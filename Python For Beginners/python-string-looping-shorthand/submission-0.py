@@ -1,0 +1,13 @@
+def print_string_characters(word1: str, word2: str) -> None:
+    for i in word1:
+        for j in word2:
+            print(i)
+            print(j)
+
+    
+
+
+
+
+# do not modify below this line
+print_string_characters("Hello, World!", "Good Job!")
